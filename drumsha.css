@@ -1,0 +1,95 @@
+﻿body {
+	font-family: Arial;
+	font-size: medium;
+	background-color: #99FF99;
+}
+#container {
+	width: 80%;
+	background-color: #CCFFCC;
+	margin: 10px auto 10px auto;
+	padding: 10px;
+	background-image: url('images/18_1280.jpg');
+}
+#header {
+	padding: 0px;
+	height: 150px;
+	background-image: none;
+	font-family: "Times New Roman";
+	font-size: 72px;
+	font-weight: bold;
+	color: #333300;
+	vertical-align: middle;
+	text-align: center;
+	letter-spacing: 10px;
+}
+#topnav {
+	height: 50px;
+	background-color: #99FF99;
+	border: thin solid #808000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-image: none;
+	background-repeat: inherit;
+	background-attachment: scroll;
+}
+#leftnav {
+	width: 180px;
+	float: left;
+	border: thin solid #008000;
+	background-color: #336600;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+#content {
+	font-family: "Times New Roman";
+	font-size: medium;
+	background-color: #CCFFCC;
+	border: thin solid #00FF00;
+	padding: 10px;
+	margin: 20px 10px 10px 205px;
+	text-align: justify;
+	text-indent: 50px;
+}
+#topnav ul {
+	text-align: center;
+	list-style-type: none;
+	padding: 15px;
+	margin: 0px;
+}
+#topnav ul li {
+	display: inline;
+}
+#topnav ul li a {
+	color: #FFFFFF;
+	background-color: #009900;
+	border: thin solid #00FF00;
+	margin: 0.2em 1em 0.2em 1em;
+	padding: 10px;
+}
+#topnav ul li a:hover {
+	color: #000000;
+	background-color: #CCFFCC;
+	border: thin solid #009900;
+}
+#leftnav ul li a {
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 0px 8px;
+	color: #FFFFFF;
+	background-color: #336600;
+	display: block;
+}
+#leftnav ul {
+	text-align: left;
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#leftnav ul li {
+	margin-bottom: 0.2px;
+}
+#leftnav ul li a:hover {
+	color: #000000;
+	background-color: #99FF99;
+}
